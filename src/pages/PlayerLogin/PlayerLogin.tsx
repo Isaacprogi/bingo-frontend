@@ -1,10 +1,16 @@
+import Visa from '../../assets/visa.svg'
+import MasterCard from '../../assets/master-card.svg'
+import Gb from '../../assets/gb.svg'
+import Gpay from '../../assets/gpay.svg'
+import Stripe from '../../assets/logos_stripe.svg'
+import { BsFillLockFill } from "react-icons/bs";
 import { Link } from 'react-router-dom'
 
 const Pay = () => {
 
     return (
         <div className='w-full min-h-full text-center '>
-            <div className="container px-[8rem] py-[2rem] w-full justify-center flex flex-wrap">
+            <div className="container md:px-[8rem] py-[2rem] w-full justify-center flex flex-wrap">
                 <p className='w-full text-[2rem] mt-8'>Please enter your name and email to access your ticket</p>
                 <div className="w-full bg-white  rounded-[24px] max-w-[757px] xl:relative p-[1rem] sm:p-[3rem] mt-10">
                     <p className='text-[1.5rem]'>Enter your name and email</p>
